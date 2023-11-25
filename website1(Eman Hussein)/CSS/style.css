@@ -1,0 +1,858 @@
+.header{
+    background-color:rgb(240, 208, 149);
+    height: 80px;
+    width: 100%;
+    overflow: auto;
+    padding:0%;
+    position: fixed;  
+    top: 0;
+    z-index: 999; 
+}
+
+.header img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-left: 250px;
+    margin-top: 5px;
+    float: left;
+}
+
+.list{
+    float: right;
+}
+
+.list li{
+    list-style-type: none;
+    color:black;
+    font-size: 20px;
+    font-weight: normal;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline;
+    margin-right: 30px;
+}
+
+.list ul{
+    margin-top: 35px;
+    margin-right: 180px;
+}
+
+
+li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+} 
+
+.parent img{
+    width: 100vw;
+    height: 100vh;
+}
+
+.parent{
+    width: 100%;
+    position: relative;
+    margin: 0;
+}
+
+.Content{
+    width: 100vw;
+    position: absolute; 
+    color:white;
+    padding: 20px;  
+    text-align: center;
+    bottom: 0;
+    margin-bottom: 230px;
+}  
+.button button{
+    width: 100px;
+    height:50px;
+    font-size: medium;
+    background-color: wheat;
+    position: absolute;
+    text-align: center;
+}
+.button button:hover{
+    background-color: rgb(207, 87, 87);
+    color: wheat;
+    cursor: pointer; 
+    text-align: center;
+}
+
+.C h1{
+    text-align: center;
+    margin-bottom: 40px;
+    color: rgb(244, 95, 95);
+  
+}
+
+.cc{
+    overflow: auto;
+    text-align: center;
+    margin-left: 40px;
+    position: relative;
+    margin-top: 200px;
+    display: inline;
+} 
+.c1{
+    width: 300px;
+    height:200px;
+    border: 1px solid rgb(248, 93, 93);
+    float: left;
+    margin-left: 100px;
+    position: relative;
+}
+.c1 button{
+    width: 100px;
+    height:40px;
+    font-size:small;
+    background-color: wheat;
+    margin-bottom: 20px;
+}
+.c1 button:hover{
+    background-color:rgb(242, 73, 73);
+    color: aliceblue;
+}
+
+.c1::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:rgba(208, 25, 25, 0.2);
+    opacity: 0s;
+    transition: 1s;
+    
+}
+.c1:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 1s;
+
+}
+
+.c2{
+    width: 300px;
+    height:200px;
+    border: 1px solid rgb(248, 93, 93);
+    float: left;
+    margin-left: 100px;
+   
+    position: relative;
+}
+.c2 button{
+    width: 100px;
+    height:40px;
+    font-size:small;
+    background-color: wheat;
+   
+}
+.c2 button:hover{
+    background-color:rgb(242, 73, 73);
+    color: aliceblue;
+}
+
+.c2::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:rgba(208, 25, 25, 0.2);
+    opacity: 0s;
+    transition: 1s;
+    
+}
+.c2:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 1s;
+
+}
+
+.c3{
+    width: 300px;
+    height:200px;
+    border: 1px solid rgb(248, 93, 93);
+    float: left;
+    margin-left: 100px;
+   
+    position: relative;
+}
+.c3 button{
+    width: 100px;
+    height:40px;
+    font-size:small;
+    background-color: wheat;
+    
+}
+.c3 button:hover{
+    background-color:rgb(242, 73, 73);
+    color: aliceblue;
+}
+
+.c3::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:rgba(208, 25, 25, 0.2);
+    opacity: 0s;
+    transition: 1s;
+    
+}
+.c3:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 1s;
+
+}
+
+.icon { 
+   margin-top: 10px; 
+   font-size: 40px;
+   color: rgb(239, 95, 95);
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+
+ 
+
+.parent1:hover h2{
+    color: rgba(195, 69, 50,03);
+}
+.parent1:hover h3{
+    color:rgb(195, 69, 50) ;
+}
+.parent2:hover h2{
+    color:rgba(195, 69, 50,03) ;
+}
+.parent2:hover h3{
+    color: rgba(195, 69, 50,03);
+}
+.parent3:hover h2{
+    color: rgba(195, 69, 50,03);
+   
+}
+.parent3:hover h3{
+    color:rgba(195, 69, 50,03) ;
+}
+
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+
+.parent1{
+    width: 300px;
+    height: 400px;
+    background-color:rgb(240, 208, 149);
+    margin-right: 40px;
+    float: left;
+    position: relative;
+}
+.parent1:hover .overlay{
+    visibility: visible;
+    opacity: 1;
+}
+.parent1 img{
+    width: 200px;
+    height: 260px;
+    margin-left: 50px;
+    margin-top: 20px;
+    position: absolute;
+}
+.overlay{
+    background-color:rgba(243, 141, 128, 0.2) ;
+    width: 200px;
+    height: 260px; 
+    visibility: hidden;
+    position: absolute;
+    transition: 0.5s;
+    opacity: 0;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.overlay a{
+    width: 30px; ;
+    height: 30px;
+    text-decoration:none ;
+    color:white ;
+    font-size: 25px;
+    background-color:rgb(239, 123, 105);
+    display: block;
+    margin-left: 170px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.parent1::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:rgba(208, 25, 25, 0.2);
+    opacity: 0s;
+    transition: 1s;
+    
+}
+.parent1:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 1s;
+}
+
+.parent2{
+    width: 300px;
+    height: 400px;
+    background-color:rgb(240, 208, 149);
+    margin-right: 40px;
+    float: left;
+    position: relative;
+}
+   
+.parent2:hover .overlay2{
+    visibility: visible;
+    opacity: 1;
+}
+.parent2 img{
+    width: 200px;
+    height: 260px;
+    margin-left: 50px;
+    margin-top: 20px;
+    position: absolute;
+}
+.overlay2{
+    background-color:rgba(243, 141, 128, 0.2);
+    width: 200px;
+    height: 260px; 
+    visibility: hidden;
+    position: absolute;
+    transition: 0.5s;
+    opacity: 0;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.overlay2 a{
+    width: 30px; ;
+    height: 30px;
+    text-decoration:none ;
+    color:white ;
+    font-size: 25px;
+    background-color:rgb(239, 123, 105);
+    display: block;
+    margin-left: 170px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.parent2::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:rgba(208, 25, 25, 0.2);
+    opacity: 0s;
+    transition: 1s;
+    
+}
+.parent2:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 1s;
+
+}
+
+.parent3{
+    width: 300px;
+    height: 400px;
+    background-color:rgb(240, 208, 149);
+    margin-right: 40px;
+    float: left;
+    position: relative;
+}
+.parent3:hover .overlay3{
+    visibility: visible;
+    opacity: 1;
+}
+.parent3 img{
+    width: 200px;
+    height: 260px;
+    margin-left: 50px;
+    margin-top: 20px;
+    position: absolute;
+}
+.overlay3{
+    background-color: rgba(243, 141, 128, 0.2);
+    width: 200px;
+    height: 260px; 
+    visibility: hidden;
+    position: absolute;
+    transition: 0.5s;
+    opacity: 0;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.overlay3 a{
+    width: 30px; ;
+    height: 30px;
+    text-decoration:none ;
+    color:white ;
+    font-size: 25px;
+    background-color:rgb(239, 123, 105);
+    display: block;
+    margin-left: 170px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.parent3::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:rgba(208, 25, 25, 0.2);
+    opacity: 0s;
+    transition: 1s;
+    
+}
+.parent3:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 1s;
+
+}
+
+
+
+.D h1{
+    text-align: center;
+    color: rgb(244, 95, 95);
+    margin-right: 100px;
+} 
+.D{
+    margin-left: 130px;
+}
+
+
+.t{
+   overflow: auto;
+   margin-left: 200px;
+   text-align:center;
+   position: relative;
+}
+
+.pricing h1{
+    text-align: center;
+    margin-top: 40px; 
+    color: rgb(244, 95, 95);
+    
+}
+.t1{
+    width: 200px;
+    height: 350px;
+    background-color: rgb(250, 216, 154);
+    border: 1px solid rgb(241, 137, 137);
+    float: left;
+    margin-left: 50px;
+    position: relative;
+}
+.t1 img{
+    width: 80px;
+    height: 80px;
+    border: 1px solid rgb(241, 137, 137);
+    border-radius:  50%;
+    
+}
+
+.t1 button{
+    width: 100px;
+    height:40px;
+    font-size:small;
+    background-color: wheat;
+} 
+.t1 button:hover{
+    background-color:rgb(242, 73, 73);
+    color:aliceblue;
+}
+
+.t1::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:rgba(208, 25, 25, 0.2);
+    opacity: 0s;
+    transition: 1s;
+    
+}
+.t1:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 1s;
+
+}
+
+.t2{
+    width: 200px;
+    height: 350px;
+    background-color: rgb(250, 216, 154);
+    border: 1px solid rgb(241, 137, 137);
+    float: left;
+    margin-left: 50px;
+    position: relative;
+}
+.t2 img{
+    width: 80px;
+    height: 80px;
+    border: 1px solid rgb(241, 137, 137);
+    border-radius:  50%;
+}
+
+.t2 button{
+    width: 100px;
+    height:40px;
+    font-size:small;
+    background-color: wheat;
+}
+.t2 button:hover{
+    background-color:rgb(242, 73, 73);
+    color: aliceblue;
+}
+
+.t2::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:rgba(208, 25, 25, 0.2);
+    opacity: 0s;
+    transition: 1s;
+    
+}
+.t2:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 1s;
+
+}
+
+.t3{
+    width: 200px;
+    height: 350px;
+    background-color:  rgb(250, 216, 154);
+    border: 1px solid rgb(241, 137, 137);
+    float: left;
+    margin-left: 50px;
+    position: relative;
+}
+.t3 img{
+    width: 80px;
+    height: 80px;
+    border: 1px solid rgb(241, 137, 137);
+    border-radius:  50%;
+}
+
+.t3 button{
+    width: 100px;
+    height:40px;
+    font-size:small;
+    background-color: wheat;
+}
+.t3 button:hover{
+    background-color:rgb(242, 73, 73);
+    color: aliceblue;
+}
+
+.t3::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:rgba(208, 25, 25, 0.2);
+    opacity: 0s;
+    transition: 1s;
+    
+}
+.t3:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 1s;
+
+}
+
+.di h1{
+    text-align: center;
+    margin-top: 20px; 
+    color: rgb(244, 95, 95);
+}
+
+
+.di{
+   margin-left: 40px;
+}
+.o1{
+    width: 200px;
+    height: 260px;
+    background-color:rgb(240, 208, 149); 
+    margin-right: 40px;  
+    float: left;
+    position: relative;
+}
+.o1:hover .overlay5{
+    visibility: visible;
+    opacity: 1;
+}
+.o1 img{
+    width: 200px;
+    height: 260px;
+    position: absolute;
+}
+.overlay5{
+    background-color:rgba(243, 141, 128, 0.2) ;
+    width: 200px;
+    height: 260px; 
+    visibility: hidden;
+    position: absolute;
+    transition: 0.5s;
+    opacity: 0;
+}
+.overlay5 a{
+    width: 30px; ;
+    height: 30px;
+    text-decoration:none ;
+    color:white ;
+    font-size: 25px;
+    background-color:rgb(239, 123, 105);
+    display: inline;
+    margin-top: 50px;
+}
+
+
+
+.d7{
+    width: 100%;
+    height: 300px;
+    background-color:rgb(237, 201, 136) ;
+    margin-top: 200px; 
+    overflow: auto;
+}
+.d6 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-left: 80px; 
+    float: left;
+    margin-top: 70px;
+}
+.d6 p{
+   float: left;
+   margin-top: 20px;
+} 
+.d6 h3{
+    float: left;
+    margin-top: 110px; 
+    margin-left: 10px;  
+    color:rgb(244, 95, 95) ;
+}
+
+.d6{
+    width: 50%; 
+    height: 150px;
+    float: left;
+ }
+.d5 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-left: 80px; 
+    float: left;
+    margin-top: 70px;
+}
+.d5{
+    width: 50%; 
+    height: 150px;
+    float: left;
+}
+.d5 p{
+    float: left;
+} 
+.d5 h3{
+   float: left;
+   margin-top: 110px; 
+   margin-left: 10px;  
+   color:rgb(244, 95, 95) ;
+}
+
+.D4 h1{
+    text-align: center;
+    /* margin-bottom: 40px; */
+    color: rgb(244, 95, 95);
+}
+.D4{
+    overflow: auto;
+    margin-left: 100px; 
+    position: relative;
+    margin-top: 80px;
+    display: inline;
+}   
+.D1{
+    width: 250px;
+    height:180px;
+    border: 1px solid rgb(248, 93, 93);
+    float: left;
+    margin-left: 170px;
+    /* margin-bottom: 40px;  */
+    position: relative;
+}
+.D1 p{
+    text-align: center;
+}
+.D1::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height:0 ;
+    top: 0;
+    left: 0;
+    background-color:rgba(208, 25, 25, 0.2);
+    opacity: 0s;
+    transition: 1s;
+    
+}
+.D1:hover::before{
+    width: 100%;
+    height: 100%;
+    opacity: 1s;
+
+}
+
+.D2{
+    width: 250px;
+    height:180px;
+    border: 1px solid rgb(248, 93, 93);
+    float: left;
+    margin-left: 60px;
+    /* margin-bottom: 40px;  */
+    position: relative;
+}
+.D2 p{
+    text-align: center;
+}
+.D2::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height:0 ;
+    top: 0;
+    left: 0;
+    background-color:rgba(208, 25, 25, 0.2);
+    opacity: 0s;
+    transition: 1s;
+    
+}
+.D2:hover::before{
+    width: 100%;
+    height: 100%;
+    opacity: 1s;
+
+}
+
+.D3{
+    width: 250px;
+    height:180px;
+    border: 1px solid rgb(248, 93, 93);
+    float: left;
+    margin-left: 60px;
+    /* margin-bottom: 40px;  */
+    position: relative;
+}
+.D3 p{
+    text-align: center;
+}
+.D3::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height:0 ;
+    top: 0;
+    left: 0;
+    background-color:rgba(208, 25, 25, 0.2);
+    opacity: 0s;
+    transition: 1s;
+    
+}
+.D3:hover::before{
+    width: 100%;
+    height: 100%;
+    opacity: 1s;
+
+}
+
+.I { 
+   margin-left: 20px;
+   margin-top: 10px;
+   font-size: 20px;
+   color: rgb(239, 95, 95);
+   /* text-align: center; */
+   
+} 
+
+.end{
+    width: 100%;
+    height: 300px;
+    background-color:rgb(237, 201, 136);
+    margin-top: 30px; 
+    overflow: auto;
+}
+.end img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-left: 520px; 
+    float: left;
+    margin-top: 20px;
+}
+.en{
+    margin-right: 500px;
+    margin-top: 200px;
+}
+.overlay6{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: rgb(0, 119, 255);
+    float: right;
+    
+}
+.en h3{
+   float: left;
+   margin-left: 500px;
+   font-size:small;
+   color: rgb(155, 154, 154);
+  
+}
+   
